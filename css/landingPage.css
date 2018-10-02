@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: NeuzeitGro-Bla;
+    src: url("../assets/fonts/NeuzeitGro-Bla.otf");
+}
+
+@font-face {
+    font-family: NeuzeitGro-Bol;
+    src: url("../assets/fonts/NeuzeitGro-Bol.otf");
+}
+
+@font-face {
+    font-family: NeuzeitGroExt-Bla;
+    src: url("../assets/fonts/NeuzeitGroExt-Bla.otf");
+}
+
+@font-face {
+    font-family: NeuzeitGro-Lig;
+    src: url("../assets/fonts/NeuzeitGro-Lig.otf");
+}
+
+@font-face {
+    font-family: NeuzeitGro-Reg;
+    src: url("../assets/fonts/NeuzeitGro-Reg.otf");
+}
+.bg-home-img {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.fil-logo {
+    position: fixed;
+    top: 40vh;
+    left: 30vw;
+    min-width: 40vw;
+}
+
+.ig-logo {
+    position: fixed;
+    left: 4vw;
+    bottom: 2vh;
+}
+
+.fab {
+    position: fixed;
+    bottom: 5vh;
+    right: 3vw;
+}
+
+.heading-text {
+    color: #FFFFFF;
+    font-family: NeuzeitGro-Reg;
+    letter-spacing: 0;  
+    text-align: left;
+    position: fixed;
+    line-height: 36px;
+    left: 4vw;
+    bottom: 7vh;
+}
+.explore-text{
+    font-size: 31px; 
+    
+}
+.fil-world-text{
+     font-size: 26px;
+}
+
+
+/*responsive*/
+@media only screen and (min-width: 320px) {
+
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+.heading-text {
+    line-height: 22px;
+    bottom: 12vh;
+}
+.explore-text {
+    font-size: 26px;
+}
+.fil-world-text {
+    font-size: 20px;
+}
+}
+
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 768px){
+
+
+}
+
+@media only screen and (min-width: 1024px){
+
+    
+
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) and (orientation: landscape) {
+
+    
+}
+@media only screen and (min-width: 1024px) and (orientation: landscape) {
+
+    
+}
+
+/*animation css*/
+.block1 {
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
